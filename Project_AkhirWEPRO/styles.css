@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #eeee;
+}
+
+.batas {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 55px;
+    color: rgba(255, 255, 255, 0);
+}
+
+
+/* Header */
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+}
+
+.logo {
+    font-family: roboto;
+    font-size: 30px;
+    margin: 15px 0 0 150px;
+    color: #62d2a2;
+}
+
+.menu {
+    margin-left: 10%;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    margin: 10px 0 0 90px;
+    text-decoration: none;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+li :hover {
+    border-radius: 0.5em;
+    background-color: #1fab89;
+    color: whitesmoke;
+}
+
+
+/* end header */
+
+
+/* halaman home */
+
+#home-main {
+    padding-bottom: 3%;
+    margin-bottom: 40px;
+}
+
+.hallo {
+    width: 100%;
+}
+
+.container-home {
+    margin: 15% 0 12% 15%;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.text-home-main {
+    font-size: medium;
+}
+
+.fp-main {
+    border-radius: 2.5em;
+    box-shadow: 15px 15px 40px #bbb7b7ea;
+    margin-left: 250px;
+    margin-right: 50px;
+}
+
+.media-sosial {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 0;
+    box-shadow: 10px 4px 20px #bbb7b7ea;
+    border-radius: 0.2em;
+    padding: 5px;
+}
+
+.media-sosial:hover {
+    width: 30px;
+    height: 30px;
+    margin: 0 12.5px 0 12.5px;
+    box-shadow: 10px 4px 20px #bbb7b7ea;
+    border-radius: 0.5em;
+    padding: 0;
+}
+
+.kontak {
+    background-color: #1fab89;
+    text-align: center;
+    width: 25%;
+    padding: 8px 0 8px 0;
+    border-radius: 2em;
+}
+
+span {
+    color: #1fab89;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.medsos {
+    display: flex;
+    margin: 20px 0 0 275px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* end home */
+
+
+/* About me */
+
+.about-me {
+    margin-right: 15%;
+    text-align: center;
+}
+
+.container-about {
+    margin: 10% 0 10% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.content-about-me {
+    width: 80%;
+    margin: 15px 0 0 10%;
+    display: flex;
+}
+
+.judul-content-deskripsi {
+    text-align: center;
+    margin: 50px 0 -8px 0;
+}
+
+.my-ftp {
+    display: inline-block;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: -50px;
+    margin-bottom: 5%;
+    border-radius: 0.5em;
+}
+
+.ftp {
+    display: inline-block;
+    border-radius: 0.5em;
+}
+
+.deskripsi-saya {
+    width: 50%;
+    font-size: 15px;
+    margin-left: -150px;
+    margin-top: -55px;
+}
+
+.sosmed-1 {
+    display: flex;
+    margin: 10px 0 0 125px;
+}
+
+.sosmed {
+    margin: 10px 10px 0 10px;
+    box-shadow: 10px 4px 20px #bbb7b7ea;
+    border-radius: 0.2em;
+    padding: 10px;
+}
+
+.sosmed:hover {
+    width: 55px;
+    height: 55px;
+    margin: 5px 9px 0 8px;
+    box-shadow: 4px 4px 25px #bbb7b7ea;
+    border-radius: 0.5em;
+    padding: 0;
+}
+
+.myskill {
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+.myskill:hover {
+    height: 250px;
+}
+
+.judul-skill {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content-skill {
+    height: 0;
+    display: flex;
+    text-align: center;
+    color: black;
+    margin-left: 34%;
+}
+
+.content-skill:hover {
+    height: 60%;
+}
+
+.skill-html {
+    width: 50%;
+    height: 200px;
+}
+
+
+/* end about me */
+
+
+/* work */
+
+#mywork {
+    margin-top: 70px;
+    background-color: black;
+}
+
+#judul-halaman {
+    width: 100%;
+    font-size: x-large;
+    font-weight: bolder;
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-Work {
+    margin: 2% -80px 0 0;
+    background-color: rgba(128, 128, 128, 0.041);
+    overflow-y: scroll;
+    height: 750px;
+    display: grid;
+    grid-template-columns: repeat(4, 1ft);
+    grid-gap: .2rem;
+}
+
+.galery {
+    margin-top: -33%;
+}
+
+.foto2 {
+    overflow: hidden;
+    padding: 2px;
+    width: 300px;
+    height: 200px;
+    margin-left: 25px;
+}
+
+.gambar-projects {
+    margin: -250px -80px 0 0;
+    background-color: rgba(128, 128, 128, 0.041);
+    overflow-x: scroll;
+    height: 850px;
+    display: grid;
+    grid-template-columns: repeat(4, 1ft);
+    grid-gap: .2rem;
+}
+
+.container-projects {
+    margin: -250px -80px 0 0;
+    background-color: rgba(128, 128, 128, 0.041);
+    overflow-x: scroll;
+    height: 750px;
+    display: grid;
+    grid-template-columns: repeat(4, 1ft);
+    grid-gap: .2rem;
+}
+
+
+/* .galery {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+.foto {
+    margin: 20px -30px -30px -30px;
+}
+
+
+/* 
+.foto2 {
+    display: inline-block;
+    width: 21px;
+    height: 10px;
+    border-radius: 0.5em;
+} */
+
+
+/* end work */
+
+
+/* Contact */
+
+.form-input {
+    background-color: #1fab89;
+    width: 40%;
+}
+
+#contact-me {
+    width: 100%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+#container-contact {
+    text-align: center;
+    display: flex;
+}
+
+.folow-saya {
+    margin: 15% 0 0 16%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* border: 1px solid red; */
+}
+
+.folow-saya h3 {
+    font-family: arial;
+}
+
+.folow-saya a {
+    font-size: 14px;
+    margin: 20px 0 5px 5px;
+    display: flex;
+}
+
+.folow-saya a:hover {
+    color: #4F4789;
+}
+
+.folow-saya h4 {
+    margin: 9px 0 0 3px;
+}
+
+.admin {
+    background-color: #1fab89;
+    width: 30%;
+    height: 10%;
+    margin: 40px 0 0 130px;
+    border-radius: 2em;
+}
+
+.indeks {
+    background-color: #1fab89;
+    width: 30%;
+    height: 10%;
+    margin: 40px 0 0 130px;
+    border-radius: 2em;
+}
+
+input {
+    width: 56%;
+    height: 20%;
+    font-size: small;
+    border-radius: 1em;
+    outline: none;
+    padding: 2px 5px 2px 10px;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 20px 0;
+    font-size: medium;
+    padding-top: 40px;
+}
+
+.email,
+.messages {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 20px 0;
+    font-size: medium;
+}
+
+#text-area {
+    outline: none;
+    padding: 0 5px 0 5px;
+    max-width: 60%;
+    min-width: 55%;
+    min-height: 150px;
+    max-height: fit-content;
+    font-size: 16px;
+}
+
+.submit {
+    cursor: pointer;
+    outline: none;
+    font-size: medium;
+    margin-top: 5px;
+    background-color: #62d2a2;
+    text-align: center;
+    width: 25%;
+    padding: 8px 0 8px 0;
+    border-radius: 2em;
+    margin-bottom: 30px;
+}
+
+.contact-saya {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15% 10% 0 10%;
+    align-content: center;
+}
+
+.contact-saya div {
+    display: flex;
+    margin: 20px 0 5px 5px;
+}
+
+.contact-saya h3,
+a {
+    font-family: arial;
+}
+
+.contact-saya h4 {
+    font-family: arial;
+    font-size: 14px;
+    margin: 9px 0 0 3px;
+}
+
+.contact-saya div a {
+    font-size: 14px;
+    font-family: arial;
+}
+
+.contact-saya div a:hover {
+    color: #4F4789;
+    text-decoration: underline;
+}
+
+
+/* end contact */
+
+
+/* footer */
+
+.footer {
+    background-color: #1fab89;
+}
+
+.copyright {
+    text-align: center;
+    padding: 60px 0 60px 0;
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.medsos-footer {
+    margin: -40px 0 0 42%;
+    display: flex;
+    align-content: center;
+}
+
+
+/* end footer */
+
+
+/* tambahFoto */
